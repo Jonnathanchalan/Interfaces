@@ -30,7 +30,7 @@ import ec.edu.ups.clasesInterfaces.Acciones;
 
     @Override
     public void moverse() {
-        System.out.println("El ave "+this.getNombre()+" esta moviendose");
+        System.out.println("El ave "+this.getNombre()+" esta volando");
     }
 
     @Override

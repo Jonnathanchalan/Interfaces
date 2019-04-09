@@ -24,7 +24,7 @@ public class Pez extends Animal implements Acciones{
 
     @Override
     public void dormir() {
-        System.out.println("El pez "+this.getNombre()+" esta durmiendo");
+        System.out.println("El pez "+this.getNombre()+" estra en el fondo del mar");
     }
 
     @Override

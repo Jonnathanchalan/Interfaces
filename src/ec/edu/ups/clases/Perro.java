@@ -29,7 +29,7 @@ public class Perro extends Animal implements Acciones {
 
     @Override
     public void moverse() {
-        System.out.println("El perro "+this.getNombre()+" esta moviendose");
+        System.out.println("El perro "+this.getNombre()+" esta saltando");
     }
 
     @Override
@@ -39,7 +39,7 @@ public class Perro extends Animal implements Acciones {
 
     @Override
     public void reproducirse() {
-        System.out.println("El perro "+this.getNombre()+" esta reproduciendose");
+        System.out.println("El perro "+this.getNombre()+" esta en etapa de reproduccion");
     }
     
 }
